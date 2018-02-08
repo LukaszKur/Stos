@@ -31,6 +31,8 @@ int main() {
            peek(top).indeks, peek(top).wartosc);
 
     print(top);
+    empty(&top);
+    print(top);
 
     return 0;
 }

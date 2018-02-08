@@ -24,4 +24,6 @@ int isEmpty(struct Wezel *top);
 
 void print(struct Wezel *top);
 
+void empty(struct Wezel **top);
+
 #endif //STOS_H

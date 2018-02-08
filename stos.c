@@ -50,3 +50,8 @@ void print(struct Wezel *top){
         print_dane(top->dane);
     }
 }
+void empty(struct Wezel **top){
+    while(!isEmpty(*top)){
+        pop(top);
+    }
+}
