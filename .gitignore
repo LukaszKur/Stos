@@ -1,0 +1,4 @@
+*.o
+CMake*
+cmake*
+.idea
