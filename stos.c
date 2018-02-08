@@ -41,3 +41,12 @@ struct Dane peek(struct Wezel *pTop){
 int isEmpty(struct Wezel *top){
     return !top;
 }
+
+void print(struct Wezel *top){
+    if(!isEmpty(top)){
+        if(top->popr != NULL){
+            print(top->popr);
+        }
+        print_dane(top->dane);
+    }
+}

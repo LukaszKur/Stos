@@ -7,11 +7,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
-struct Dane{
-    int indeks;
-    int wartosc;
-};
+#include "dane.h"
 
 struct Wezel{
     struct Dane dane;
@@ -25,5 +21,7 @@ struct Dane pop(struct Wezel **pTop);
 struct Dane peek(struct Wezel *pTop);
 
 int isEmpty(struct Wezel *top);
+
+void print(struct Wezel *top);
 
 #endif //STOS_H
